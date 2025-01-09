@@ -31,82 +31,82 @@
 - [Mobile App Authentication Weaknesses (e.g., weak PIN storage)](/resources/Mobile_App_Authentication_Weaknesses.md)
 
 ### 3. Access Control Vulnerabilities
-- Broken Access Control
-- Insecure Direct Object References (IDOR)
-- Privilege Escalation
-- Mass Assignment Vulnerabilities
-- Insecure Function-Level Access Control
-- Path Traversal
-- Horizontal Privilege Escalation
-- Vertical Privilege Escalation
-- Access Control to User-Inputted Data
-- Uncontrolled Access to Mobile App Resources
-- Improper API Access Control
-- API Rate Limiting Issues
+- [Broken Access Control](/resources/Broken_Access_Control.md)
+- [Insecure Direct Object References (IDOR)](/resources/Insecure_Direct_Object_References.md)
+- [Privilege Escalation](/resources/Privilege_Escalation.md)
+- [Mass Assignment Vulnerabilities](/resources/Mass_Assignment_Vulnerabilities.md)
+- [Insecure Function-Level Access Control](/resources/Insecure_Function-Level_Access_Control.md)
+- [Path Traversal](/resources/Path_Traversal.md)
+- [Horizontal Privilege Escalation](/resources/Horizontal_Privilege_Escalation.md)
+- [Vertical Privilege Escalation](/resources/Vertical_Privilege_Escalation.md)
+- [Access Control to User-Inputted Data](/resources/Access_Control_to_User-Inputted_Data.md)
+- [Uncontrolled Access to Mobile App Resources](/resources/Uncontrolled_Access_to_Mobile_App_Resources.md)
+- [Improper API Access Control](/resources/Improper_API_Access_Control.md)
+- [API Rate Limiting Issues](/resources/API_Rate_Limiting_Issues.md)
 
 ### 4. Cross-Site Scripting (XSS)
-- Reflected XSS
-- Stored XSS
-- DOM-Based XSS
-- Self-XSS
-- Blind XSS
-- Cross-Site Script Inclusion (XSSI)
-- Mobile App XSS (via WebViews)
-- Cross-Site Script Execution via APIs
+- [Reflected XSS](/resources/Reflected_XSS.md)
+- [Stored XSS](/resources/Stored_XSS.md)
+- [DOM-Based XSS](/resources/DOM-Based_XSS.md)
+- [Self-XSS](/resources/Self-XSS.md)
+- [Blind XSS](/resources/Blind_XSS.md)
+- [Cross-Site Script Inclusion (XSSI)](/resources/Cross-Site_Script_Inclusion.md)
+- [Mobile App XSS (via WebViews)](/resources/Mobile_App_XSS.md)
+- [Cross-Site Script Execution via APIs](/resources/Cross-Site_Script_Execution_via_APIs.md)
 
 ### 5. Cross-Site Request Forgery (CSRF)
-- Classic CSRF
-- CSRF with SameSite Cookies
-- Malicious Link/Script Injection for CSRF
-- Token Mismanagement in CSRF
-- Mobile App CSRF Vulnerabilities
-- CSRF via Unauthenticated API Endpoints
+- [Classic CSRF](/resources/Classic_CSRF.md)
+- [CSRF with SameSite Cookies](/resources/CSRF_with_SameSite_Cookies.md)
+- [Malicious Link/Script Injection for CSRF](/resources/Malicious_Link-Script_Injection_for_CSRF.md)
+- [Token Mismanagement in CSRF](/resources/Token_Mismanagement_in_CSRF.md)
+- [Mobile App CSRF Vulnerabilities](/resources/Mobile_App_CSRF_Vulnerabilities.md)
+- [CSRF via Unauthenticated API Endpoints](/resources/CSRF_via_Unauthenticated_API_Endpoints.md)
 
 ### 6. Insecure Deserialization
-- Object Injection (PHP/Java Deserialization)
-- Remote Code Execution (RCE) via Insecure Deserialization
-- Insecure Deserialization Leading to Privilege Escalation
-- Mobile App Insecure Deserialization (e.g., for Local Storage)
+- [Object Injection (PHP/Java Deserialization)](/resources/Object_Injection.md)
+- [Remote Code Execution (RCE) via Insecure Deserialization](/resources/RCE_via_Insecure_Deserialization.md)
+- [Insecure Deserialization Leading to Privilege Escalation](/resources/Insecure_Deserialization_Leading_to_Privilege_Escalation.md)
+- [Mobile App Insecure Deserialization (e.g., for Local Storage)](/resources/Mobile_App_Insecure_Deserialization.md)
 
 ### 7. Security Misconfiguration
-- Default Configuration Vulnerabilities
-- Misconfigured Security Headers (e.g., CORS, X-Frame-Options)
-- Open Ports and Services
-- Verbose Error Messages
-- Lack of Secure Configuration in Web Servers
-- Default Accounts or Unchanged Credentials
-- Improper Caching Configuration
-- Mobile App Insecure Configurations (e.g., Debugging Enabled)
-- Misconfigured API Endpoints
-- Misconfigured Firewall Rules
-- Misconfigured Load Balancer
+- [Default Configuration Vulnerabilities](/resources/Default_Configuration_Vulnerabilities.md)
+- [Misconfigured Security Headers (e.g., CORS, X-Frame-Options)](/resources/Misconfigured_Security_Headers.md)
+- [Open Ports and Services](/resources/Open_Ports_and_Services.md)
+- [Verbose Error Messages](/resources/Verbose_Error_Messages.md)
+- [Lack of Secure Configuration in Web Servers](/resources/Lack_of_Secure_Configuration_in_Web_Servers.md)
+- [Default Accounts or Unchanged Credentials](/resources/Default_Accounts_or_Unchanged_Credentials.md)
+- [Improper Caching Configuration](/resources/Improper_Caching_Configuration.md)
+- [Mobile App Insecure Configurations (e.g., Debugging Enabled)](/resources/Mobile_App_Insecure_Configurations.md)
+- [Misconfigured API Endpoints](/resources/Misconfigured_API_Endpoints.md)
+- [Misconfigured Firewall Rules](/resources/Misconfigured_Firewall_Rules.md)
+- [Misconfigured Load Balancer](/resources/Misconfigured_Load_Balancer.md)
 
 ### 8. Sensitive Data Exposure
-- Insecure Transmission (HTTP instead of HTTPS)
-- Weak Encryption Algorithms
-- Sensitive Data in URLs, Logs, or Cookies
-- Improper Key Management
-- Insecure Storage of Sensitive Data (Unhashed Passwords)
-- Exposed Secrets in Source Code
-- Mobile App Sensitive Data Leakage (e.g., in logs or backups)
-- Exposed API Keys or Tokens in Source Code
+- [Insecure Transmission (HTTP instead of HTTPS)](/resources/Insecure_Transmission.md)
+- [Weak Encryption Algorithms](/resources/Weak_Encryption_Algorithms.md)
+- [Sensitive Data in URLs, Logs, or Cookies](/resources/Sensitive_Data_in_URLs_Logs_Cookies.md)
+- [Improper Key Management](/resources/Improper_Key_Management.md)
+- [Insecure Storage of Sensitive Data (Unhashed Passwords)](/resources/Insecure_Storage_of_Sensitive_Data.md)
+- [Exposed Secrets in Source Code](/resources/Exposed_Secrets_in_Source_Code.md)
+- [Mobile App Sensitive Data Leakage (e.g., in logs or backups)](/resources/Mobile_App_Sensitive_Data_Leakage.md)
+- [Exposed API Keys or Tokens in Source Code](/resources/Exposed_API_Keys_or_Tokens_in_Source_Code.md)
 
 ### 9. Insufficient Logging & Monitoring
-- Lack of Proper Logging
-- Failure to Log Failed Authentication Attempts
-- Absence of Alerts on Suspicious Activities
-- Log Tampering
-- Sensitive Data in Logs
-- Lack of Audit Trails for Critical Actions
-- Mobile App Insufficient Logging for Security Events
-- API Request/Response Log Tampering
+- [Lack of Proper Logging](/resources/Lack_of_Proper_Logging.md)
+- [Failure to Log Failed Authentication Attempts](/resources/Failure_to_Log_Failed_Authentication_Attempts.md)
+- [Absence of Alerts on Suspicious Activities](/resources/Absence_of_Alerts_on_Suspicious_Activities.md)
+- [Log Tampering](/resources/Log_Tampering.md)
+- [Sensitive Data in Logs](/resources/Sensitive_Data_in_Logs.md)
+- [Lack of Audit Trails for Critical Actions](/resources/Lack_of_Audit_Trails_for_Critical_Actions.md)
+- [Mobile App Insufficient Logging for Security Events](/resources/Mobile_App_Insufficient_Logging_for_Security_Events.md)
+- [API Request/Response Log Tampering](/resources/API_Request-Response_Log_Tampering.md)
 
 ### 10. Cross-Origin Resource Sharing (CORS) Issues
-- CORS Misconfiguration
-- CORS with Open or Misconfigured Origins
-- CORS with Insecure Cookies
-- CORS with Malicious Request Forging
-- Insecure CORS Configuration in Mobile Apps with Webviews
+- [CORS Misconfiguration](/resources/CORS_Misconfiguration.md)
+- [CORS with Open or Misconfigured Origins](/resources/CORS_with_Open_or_Misconfigured_Origins.md)
+- [CORS with Insecure Cookies](/resources/CORS_with_Insecure_Cookies.md)
+- [CORS with Malicious Request Forging](/resources/CORS_with_Malicious_Request_Forging.md)
+- [Insecure CORS Configuration in Mobile Apps with Webviews](/resources/Insecure_CORS_Configuration_in_Mobile_Apps_with_Webviews.md)
 
 ### 11. Security Headers Issues
 - Missing or Misconfigured HTTP Security Headers
