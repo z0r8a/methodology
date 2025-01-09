@@ -2,17 +2,17 @@
 
 ### 1. Injection Vulnerabilities
 - [SQL Injection](/resources/SQL_Injection.md)
-- [XML Injection]
-- [LDAP Injection]
-- [Command Injection]
-- [NoSQL Injection]
-- [CRLF Injection]
-- [HTML Injection]
-- [XPath Injection]
-- [Script Injection (JavaScript Injection, HTML Injection)]
-- [XML External Entity (XXE) Injection]
-- [Entity Injection]
-- [Code Injection via API (e.g., SOAP or JSON APIs)]
+- [XML Injection](/resources/XML_Injection.md)
+- [LDAP Injection](/resources/LDAP_Injection.md)
+- [Command Injection](/resources/Command_Injection.md)
+- [NoSQL Injection](/resources/NoSQL_Injection.md)
+- [CRLF Injection](/resources/CRLF_Injection.md)
+- [HTML Injection](/resources/HTML_Injection.md)
+- [XPath Injection](/resources/XPath_Injection.md)
+- [Script Injection (JavaScript Injection, HTML Injection)](/resources/Script_Injection.md)
+- [XML External Entity (XXE) Injection](/resources/XXE_Injection.md)
+- [Entity Injection](/resources/Entity_Injection.md)
+- [Code Injection via API (e.g., SOAP or JSON APIs)](/resources/Code_Injection_via_API.md)
 
 ### 2. Authentication Vulnerabilities
 - Broken Authentication
