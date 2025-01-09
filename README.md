@@ -9,7 +9,8 @@
 - CRLF Injection
 - HTML Injection
 - XPath Injection
-2. Authentication Vulnerabilities
+
+### 2. Authentication Vulnerabilities
 - Broken Authentication
 - Session Fixation
 - Credential Stuffing
