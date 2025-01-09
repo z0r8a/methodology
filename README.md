@@ -9,6 +9,10 @@
 - CRLF Injection
 - HTML Injection
 - XPath Injection
+- Script Injection (JavaScript Injection, HTML Injection)
+- XML External Entity (XXE) Injection
+- Entity Injection
+- Code Injection via API (e.g., SOAP or JSON APIs)
 
 ### 2. Authentication Vulnerabilities
 - Broken Authentication
@@ -20,7 +24,11 @@
 - Exposed Session Tokens
 - Predictable Login Endpoints
 - Token or Session Expiration Flaws
-- Insecure Password Storage (Weak Hashing)
+- Insecure Password Storage (Weak Hashing or Plaintext Passwords)
+- Multi-Factor Authentication Bypass
+- Insecure OAuth / OpenID Configuration
+- Unprotected API Authentication
+- Mobile App Authentication Weaknesses (e.g., weak PIN storage)
 
 ### 3. Access Control Vulnerabilities
 - Broken Access Control
@@ -32,6 +40,9 @@
 - Horizontal Privilege Escalation
 - Vertical Privilege Escalation
 - Access Control to User-Inputted Data
+- Uncontrolled Access to Mobile App Resources
+- Improper API Access Control
+- API Rate Limiting Issues
 
 ### 4. Cross-Site Scripting (XSS)
 - Reflected XSS
@@ -39,17 +50,23 @@
 - DOM-Based XSS
 - Self-XSS
 - Blind XSS
+- Cross-Site Script Inclusion (XSSI)
+- Mobile App XSS (via WebViews)
+- Cross-Site Script Execution via APIs
 
 ### 5. Cross-Site Request Forgery (CSRF)
 - Classic CSRF
 - CSRF with SameSite Cookies
 - Malicious Link/Script Injection for CSRF
 - Token Mismanagement in CSRF
+- Mobile App CSRF Vulnerabilities
+- CSRF via Unauthenticated API Endpoints
 
 ### 6. Insecure Deserialization
 - Object Injection (PHP/Java Deserialization)
 - Remote Code Execution (RCE) via Insecure Deserialization
 - Insecure Deserialization Leading to Privilege Escalation
+- Mobile App Insecure Deserialization (e.g., for Local Storage)
 
 ### 7. Security Misconfiguration
 - Default Configuration Vulnerabilities
@@ -59,14 +76,20 @@
 - Lack of Secure Configuration in Web Servers
 - Default Accounts or Unchanged Credentials
 - Improper Caching Configuration
+- Mobile App Insecure Configurations (e.g., Debugging Enabled)
+- Misconfigured API Endpoints
+- Misconfigured Firewall Rules
+- Misconfigured Load Balancer
 
 ### 8. Sensitive Data Exposure
-- Insecure Transmission (e.g., HTTP instead of HTTPS)
+- Insecure Transmission (HTTP instead of HTTPS)
 - Weak Encryption Algorithms
 - Sensitive Data in URLs, Logs, or Cookies
 - Improper Key Management
 - Insecure Storage of Sensitive Data (Unhashed Passwords)
 - Exposed Secrets in Source Code
+- Mobile App Sensitive Data Leakage (e.g., in logs or backups)
+- Exposed API Keys or Tokens in Source Code
 
 ### 9. Insufficient Logging & Monitoring
 - Lack of Proper Logging
@@ -75,6 +98,8 @@
 - Log Tampering
 - Sensitive Data in Logs
 - Lack of Audit Trails for Critical Actions
+- Mobile App Insufficient Logging for Security Events
+- API Request/Response Log Tampering
 
 ### 10. Cross-Origin Resource Sharing (CORS) Issues
 - CORS Misconfiguration
