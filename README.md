@@ -1,25 +1,25 @@
 # methodology
 
 1. Injection Vulnerabilities
-SQL Injection (SQLi)
-XML Injection
-LDAP Injection
-Command Injection
-NoSQL Injection
-CRLF Injection
-HTML Injection
-XPath Injection
+- SQL Injection (SQLi)
+- XML Injection
+- LDAP Injection
+- Command Injection
+- NoSQL Injection
+- CRLF Injection
+- HTML Injection
+- XPath Injection
 2. Authentication Vulnerabilities
-Broken Authentication
-Session Fixation
-Credential Stuffing
-Password Guessing
-Weak Password Recovery Mechanisms
-Brute Force Attacks
-Exposed Session Tokens
-Predictable Login Endpoints
-Token or Session Expiration Flaws
-Insecure Password Storage (Weak Hashing)
+- Broken Authentication
+- Session Fixation
+- Credential Stuffing
+- Password Guessing
+- Weak Password Recovery Mechanisms
+- Brute Force Attacks
+- Exposed Session Tokens
+- Predictable Login Endpoints
+- Token or Session Expiration Flaws
+- Insecure Password Storage (Weak Hashing)
 3. Access Control Vulnerabilities
 Broken Access Control
 Insecure Direct Object References (IDOR)
