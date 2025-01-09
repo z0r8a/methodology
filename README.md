@@ -1,18 +1,18 @@
 # methodology
 
 ### 1. Injection Vulnerabilities
-- SQL Injection
-- XML Injection
-- LDAP Injection
-- Command Injection
-- NoSQL Injection
-- CRLF Injection
-- HTML Injection
-- XPath Injection
-- Script Injection (JavaScript Injection, HTML Injection)
-- XML External Entity (XXE) Injection
-- Entity Injection
-- Code Injection via API (e.g., SOAP or JSON APIs)
+- [SQL Injection](/resources/SQL_Injection.md)
+- [XML Injection]
+- [LDAP Injection]
+- [Command Injection]
+- [NoSQL Injection]
+- [CRLF Injection]
+- [HTML Injection]
+- [XPath Injection]
+- [Script Injection (JavaScript Injection, HTML Injection)]
+- [XML External Entity (XXE) Injection]
+- [Entity Injection]
+- [Code Injection via API (e.g., SOAP or JSON APIs)]
 
 ### 2. Authentication Vulnerabilities
 - Broken Authentication
