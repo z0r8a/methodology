@@ -81,6 +81,7 @@
 - CORS with Open or Misconfigured Origins
 - CORS with Insecure Cookies
 - CORS with Malicious Request Forging
+- Insecure CORS Configuration in Mobile Apps with Webviews
 
 ### 11. Security Headers Issues
 - Missing or Misconfigured HTTP Security Headers
@@ -97,12 +98,14 @@
 - Unrestricted File Type Upload
 - Insecure File Storage Locations
 - File Name Injection
+- File Upload Vulnerabilities in Mobile Apps
 
 ### 13. XML External Entity (XXE) Injection
 - Classic XXE
 - Blind XXE
 - XXE Leading to SSRF
 - XML Injection
+- XXE in API Payloads
 
 ### 14. Business Logic Vulnerabilities
 - Race Conditions
@@ -110,6 +113,8 @@
 - Inconsistent Application States
 - Insecure Workflow Transitions
 - Sensitive Data Exposure via Business Logic
+- Unintended Mobile App Behavior
+- API Logic Flaws
 
 ### 15. Server-Side Request Forgery (SSRF)
 - Classic SSRF
@@ -117,12 +122,14 @@
 - SSRF to Cloud Metadata API
 - SSRF to Access Private Resources
 - SSRF Leading to RCE
+- Mobile App SSRF via Webviews
 
 ### 16. Clickjacking
 - Frame Injection Attacks
 - UI Redressing
 - Clickjacking with Transparent Layers
 - Manipulation of Web Interfaces with Hidden Frames
+- Mobile App UI Manipulation via Clickjacking
 
 ### 17. Improper Input Validation
 - Untrusted Data Accepted as Input
@@ -130,6 +137,8 @@
 - Input Validation Bypasses
 - Regular Expression Flaws (ReDoS)
 - Buffer Overflow via Malicious Input
+- Mobile App Input Validation Bypass
+- API Input Validation Flaws
 
 ### 18. Broken Cryptography
 - Weak or Deprecated Encryption Algorithms
@@ -137,6 +146,7 @@
 - Weak Hashing Algorithms
 - Insecure Data Decryption
 - Exposed Encryption Keys or Secrets
+- Mobile App Cryptography Flaws (e.g., weak PIN encryption)
 
 ### 19. Denial of Service (DoS)
 - Resource Exhaustion (CPU, Memory)
@@ -144,17 +154,21 @@
 - Large Payload DoS
 - Excessive Resource Consumption
 - Server Crash Due to Unexpected Input
+- Mobile App DoS via Insecure Network Requests
 
 ### 20. Out-of-Bounds Access
 - Buffer Overflow (Stack Overflow)
 - Out-of-Bounds Read/Write
 - Heap Overflow
+- Memory Corruption in Mobile Apps
+- Out-of-Bounds API Access
 
 ### 21. Application Logic Flaws
 - Logic Flaws Leading to Privilege Escalation
 - Unintended Operations
 - Bypassing Security Policies
 - Authorization Bypass Using Business Logic
+- Misconfiguration of Mobile App Logic Flows
 
 ### 22. Misconfigured APIs
 - Insecure API Endpoints
@@ -162,6 +176,7 @@
 - Unencrypted API Endpoints
 - Overexposed API Data
 - API Rate Limiting Issues
+- Mobile App API Misconfigurations
 
 ### 23. Insufficient Session Management
 - Session Fixation
@@ -170,18 +185,21 @@
 - Session Timeout Misconfigurations
 - Cross-Site Script Inclusion via Cookies (CSRF)
 - Cookies Not Set with Secure or HttpOnly Flags
+- Mobile App Session Management Weaknesses
 
 ### 24. Remote Code Execution (RCE)
 - Command Injection Vulnerabilities
 - Remote Code Execution via File Upload
 - RCE via XML External Entities
 - RCE via Insecure Deserialization
+- RCE via API Vulnerabilities
 
 ### 25. Insufficient Protection Against Bot Attacks
 - Captcha Bypassing
 - Automated Attack Prevention Failure
 - Lack of Rate Limiting
 - Bot Abuse of Authentication/Forms
+- Mobile App Bot Mitigation Flaws
 
 ### 26. API Security Issues
 - Unsecured API Endpoints
@@ -195,20 +213,24 @@
 - Vulnerable Dependencies
 - Insecure Packages/Plugins
 - Use of Vulnerable SDKs/APIs
+- Mobile App Third-Party Library Vulnerabilities
 
 ### 28. Content Injection Vulnerabilities
 - Cross-Site Script Inclusion (XSSI)
 - HTML Injection
 - JSON Injection
 - JavaScript Injection
+- Mobile App Content Injection via WebViews
 
 ### 29. Insufficient File Permissions
 - File Permissions in Web Root
 - Incorrect Access Control for Files
 - Sensitive Files Exposed to Public
 - Writable Folders Accessible by Unauthorized Users
+- Improper File Permission in System/Network Apps
 
 ### 30. Path Traversal
 - Directory Traversal (../)
 - Path Injection Vulnerabilities
 - Access to Arbitrary Files Outside of Web Root
+- Mobile App Path Traversal
