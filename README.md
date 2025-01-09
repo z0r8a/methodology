@@ -15,20 +15,20 @@
 - [Code Injection via API (e.g., SOAP or JSON APIs)](/resources/Code_Injection_via_API.md)
 
 ### 2. Authentication Vulnerabilities
-- Broken Authentication
-- Session Fixation
-- Credential Stuffing
-- Password Guessing
-- Weak Password Recovery Mechanisms
-- Brute Force Attacks
-- Exposed Session Tokens
-- Predictable Login Endpoints
-- Token or Session Expiration Flaws
-- Insecure Password Storage (Weak Hashing or Plaintext Passwords)
-- Multi-Factor Authentication Bypass
-- Insecure OAuth / OpenID Configuration
-- Unprotected API Authentication
-- Mobile App Authentication Weaknesses (e.g., weak PIN storage)
+- [Broken Authentication](/resources/Broken_Authentication.md)
+- [Session Fixation](/resources/Session_Fixation.md)
+- [Credential Stuffing](/resources/Credential_Stuffing.md)
+- [Password Guessing](/resources/Password_Guessing.md)
+- [Weak Password Recovery Mechanisms](/resources/Weak_Password_Recovery_Mechanisms.md)
+- [Brute Force Attacks](/resources/Brute_Force_Attacks.md)
+- [Exposed Session Tokens](/resources/Exposed_Session_Tokens.md)
+- [Predictable Login Endpoints](/resources/Predictable_Login_Endpoints.md)
+- [Token or Session Expiration Flaws](/resources/Token_or_Session_Expiration_Flaws.md)
+- [Insecure Password Storage (Weak Hashing or Plaintext Passwords)](/resources/Insecure_Password_Storage.md)
+- [Multi-Factor Authentication Bypass](/resources/Multi-Factor_Authentication_Bypass.md)
+- [Insecure OAuth / OpenID Configuration](/resources/Insecure_OAuth-OpenID_Configuration.md)
+- [Unprotected API Authentication](/resources/Unprotected_API_Authentication.md)
+- [Mobile App Authentication Weaknesses (e.g., weak PIN storage)](/resources/Mobile_App_Authentication_Weaknesses.md)
 
 ### 3. Access Control Vulnerabilities
 - Broken Access Control
