@@ -1,6 +1,6 @@
 # methodology
 
-1. Injection Vulnerabilities
+### 1. Injection Vulnerabilities
 - SQL Injection (SQLi)
 - XML Injection
 - LDAP Injection
