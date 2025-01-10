@@ -18,7 +18,7 @@
 
 
 # 2. Information Gathering (جلسه شناخت)
-### Passive Reconnaissance (No direct interaction)
+### Passive Reconnaissance
 - OSINT Tools:
   - theHarvester: Gather emails, subdomains, and metadata.
     - `theHarvester -d example.com -b all`
@@ -30,7 +30,7 @@
 - Public Repositories: Search for leaked credentials or sensitive files
   - `git clone https://github.com/example/repo.git`
   - `grep -ri "password" repo/`
-### Active Reconnaissance (Direct interaction with target)
+### Active Reconnaissance
 - DNS Enumeration:
   - Query records: `dig example.com ANY`
   - Zone transfer (if misconfigured): `dig axfr @ns1.example.com example.com`
