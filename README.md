@@ -8,6 +8,20 @@
 - Use of Hardcoded Credentials
 - Token Hijacking (e.g., JWT tampering)
 - Insufficient Token Expiration or Revocation
+- Broken Authentication
+- Password Guessing
+- Weak Password Recovery Mechanisms
+- Brute Force Attacks
+- Exposed Session Tokens
+- Predictable Login Endpoints
+- Token or Session Expiration Flaws
+- Insecure Password Storage
+- Multi-Factor Authentication Bypass
+- Insecure OAuth-OpenID Configuration
+- Unprotected API Authentication
+- Mobile App Authentication Weaknesses
+- Cross-Protocol Session Hijacking
+- JWT Attacks
 
 # Access Control and Authorization
 - Broken Access Control
@@ -18,6 +32,15 @@
 - Insecure File and Directory Permissions
 - Excessive Data Exposure in APIs
 - Unrestricted Access to Critical Functions or Endpoints
+- Mass Assignment Vulnerabilities
+- Insecure Function-Level Access Control
+- Horizontal Privilege Escalation
+- Vertical Privilege Escalation
+- Access Control to User-Inputted Data
+- Improper API Access Control
+- Authorization Bypass via Business Logic
+- Improper API Access Control
+- Uncontrolled Access to Mobile App Resources
 
 # Input Validation and Injection
 - SQL Injection
@@ -35,6 +58,11 @@
 - Cross-Site Request Forgery (CSRF)
 - Template Injection
 - Business Logic Injection
+- XPath Injection
+- Script Injection
+- Entity Injection
+- Blind Injection Attacks
+- File and Resource Handling
 
 # File and Resource Handling
 - Unrestricted File Upload
@@ -45,6 +73,15 @@
 - Server-Side Request Forgery (SSRF)
 - Open Redirects
 - Uncontrolled Zip Bombs or Archive Extraction
+- Malicious File Upload
+- Insecure File Handling
+- Unrestricted File Type Upload
+- Insecure File Storage Locations
+- File Name Injection
+- File Upload Vulnerabilities in Mobile Apps
+- Path Traversal in Uploaded Files
+- Server-Side File Processing Vulnerabilities
+- Path Traversal via User Input
 
 # Cryptographic and Data Protection Issues
 - Weak Encryption Algorithms
@@ -56,6 +93,13 @@
 - Plaintext Storage of Sensitive Data
 - Improper Certificate Validation
 - Token Replay Attacks (e.g., in JWT or OAuth)
+- Sensitive Data in URLs, Logs, or Cookies
+- Exposed Secrets in Source Code
+- Weak Hashing Algorithms
+- Insecure Data Decryption
+- Exposed Encryption Keys or Secrets
+- Mobile App Cryptography Flaws
+- Insecure SSL-TLS Implementation
 
 # Security Misconfigurations
 - Unpatched or Outdated Software
@@ -64,6 +108,16 @@
 - Excessive Permissions in Cloud Storage (e.g., S3 buckets)
 - Default Configurations Left Enabled
 - Unnecessary Features or Services Running (e.g., Telnet)
+- Default Accounts or Unchanged Credentials
+- Improper Caching Configuration
+- Misconfigured API Endpoints
+- Misconfigured Firewall Rules
+- Misconfigured Load Balancer
+- Cloud Security Misconfigurations
+- Exposed API Keys or Tokens in Source Code
+- API Rate Limiting Issues
+- Mobile App Sensitive Data Leakage
+- Insecure Transmission
 
 # Mobile Application-Specific Vulnerabilities
 - Insecure Data Storage (e.g., SQLite, Shared Preferences)
@@ -74,6 +128,12 @@
 - Unprotected Sensitive Activities (e.g., screenshot leaks)
 - Insufficient Root/Jailbreak Detection
 - Improper Use of WebViews (e.g., JavaScript-enabled WebView)
+- Mobile App Insecure Configurations
+- Mobile App Session Management Weaknesses
+- Mobile App Cryptography Flaws
+- Mobile App API Misconfigurations
+- Mobile App UI Manipulation via Clickjacking
+- Mobile App Path Traversal
 
 # API-Specific Vulnerabilities
 - Lack of Rate Limiting (e.g., brute force attacks)
@@ -84,6 +144,12 @@
 - GraphQL-Specific Issues (e.g., excessive introspection, data exposure)
 - API Key Exposure (e.g., in client-side code or logs)
 - Improper API Versioning (leading to untested, outdated endpoints)
+- Improper API Authorization
+- Unencrypted API Endpoints
+- Overexposed API Data
+- API Information Disclosure
+- Improperly Scoped API Permissions
+- API Logic Flaws
 
 # System Application-Specific Vulnerabilities
 - Buffer Overflows (Heap/Stack)
@@ -107,6 +173,9 @@
 - Insufficient Logging for Security Events
 - Missing Alerting Mechanisms for Anomalous Activities
 - Insecure Log Storage (e.g., plaintext logs)
+- Failure to Detect Anomalous Requests
+- Lack of Audit Trails for Critical Actions
+- API Request-Response Log Tampering
 
 # Client-Side Vulnerabilities
 - DOM-based XSS
@@ -120,12 +189,19 @@
 - Weak Wi-Fi Protections (e.g., WPA2 vulnerabilities)
 - Insecure DNS (e.g., DNS Cache Poisoning)
 - Man-in-the-Middle (MITM) Vulnerabilities
+- Insecure Communication in Microservices
+- Unencrypted Data in Transit
 
 # Business Logic and Design Flaws
 - Inconsistent Workflow Logic
 - Lack of Account Lockout After Failed Attempts
 - Improper Validation of Critical Operations (e.g., fund transfers)
 - Design Assumptions That Bypass Security Controls
+- Unauthorized API Endpoints
+- Unintended Mobile App Behavior
+- Misconfiguration of Mobile App Logic Flows
+- Logic Flaws Leading to Privilege Escalation
+- Unintended Operations
 
 # Architecture-Related Vulnerabilities
 - Architectural Design Flaws
