@@ -1,0 +1,4 @@
+- OSINT Tools
+  - theHarvester: Gather emails, subdomains, and metadata.
+  - Shodan: Search for exposed services
+  - Google Dorks
