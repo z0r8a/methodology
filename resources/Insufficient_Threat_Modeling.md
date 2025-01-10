@@ -1,0 +1,3 @@
+- Insufficient Threat Modeling
+  - Failure to Identify Potential Threats: Missing or incomplete threat models, leading to unforeseen risks.
+  - Improper Handling of External Dependencies: Failure to evaluate security risks from third-party services or components.
