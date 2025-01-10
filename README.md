@@ -39,7 +39,7 @@
 - Web Application Enumeration:
   - Identify directories: `gobuster dir -u https://example.com -w /path/to/wordlist.txt`
 
-# 3. Threat Modeling and Target Prioritization (جلسه داخلی پس از جلسه شناخت)
+# 3. Threat Modeling and Target Prioritization (طراحی تست)
 ### Attack Surface Analysis:
 - Create a diagram of all services, endpoints, and applications.
 - Use tools like OWASP Threat Dragon to visualize threats.
