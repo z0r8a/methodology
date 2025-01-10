@@ -1,4 +1,54 @@
-# Authentication and Session Management
+# 1. Pre-Engagement Phase
+### Scope Definition
+- Identify in-scope assets: List all domains, subdomains, IP ranges, web apps, APIs, networks.
+- Confirm out-of-scope assets: Explicitly document systems/services to avoid.
+### Rules of Engagement (ROE)
+- Timing:
+  - Specify testing hours (e.g., weekdays 9 AM–5 PM).
+  - Include blackout periods (e.g., during major deployments).
+- Test Type:
+  - Black-box: No prior knowledge.
+  - Gray-box: Limited credentials or architecture knowledge.
+  - White-box: Full access to source code and architecture diagrams.
+- Critical Findings Process:
+  - Define how findings like RCE or privilege escalation will be escalated immediately.
+### Legal Documentation
+- Authorization to Test: Signed letter from stakeholders confirming consent.
+- NDA: Ensure non-disclosure agreements are in place.
+
+
+# 2. Information Gathering (Reconnaissance)
+### Passive Reconnaissance (No direct interaction)
+- OSINT Tools:
+  - theHarvester: Gather emails, subdomains, and metadata.
+    - `theHarvester -d example.com -b all`
+  - Shodan: Search for exposed services
+    - `shodan search "org:Example Company"`
+  - Google Dorks:
+    - `site:example.com filetype:pdf`
+    - `site:example.com intitle:"index of"`
+- Public Repositories: Search for leaked credentials or sensitive files
+  - `git clone https://github.com/example/repo.git`
+  - `grep -ri "password" repo/`
+### Active Reconnaissance (Direct interaction with target)
+- DNS Enumeration:
+  - Query records: `dig example.com ANY`
+  - Zone transfer (if misconfigured): `dig axfr @ns1.example.com example.com`
+- Port Scanning:
+  - Full TCP/UDP scan: `nmap -sS -sU -p- -T4 example.com`
+- Web Application Enumeration:
+  - Identify directories: `gobuster dir -u https://example.com -w /path/to/wordlist.txt`
+
+# 3. Threat Modeling and Target Prioritization
+### Attack Surface Analysis:
+- Create a diagram of all services, endpoints, and applications.
+- Use tools like OWASP Threat Dragon to visualize threats.
+### Prioritization Criteria:
+- Business-critical systems: Databases, payment gateways, sensitive APIs.
+- Historical vulnerabilities: Legacy software and outdated libraries.
+
+# 4. Vulnerability Assessment
+### Authentication and Session Management
 - [Weak or Default Credentials](/resources/Weak_or_Default_Credentials.md)
 - [Insufficient Password Complexity Policies](/resources/Insufficient_Password_Complexity_Policies.md)
 - [Credential Stuffing](/resources/Credential_Stuffing.md)
@@ -23,7 +73,7 @@
 - [Cross-Protocol Session Hijacking](/resources/Cross-Protocol_Session_Hijacking.md)
 - [JWT Attacks](/resources/JWT_Attacks.md)
 
-# Access Control and Authorization
+### Access Control and Authorization
 - Broken Access Control
 - Privilege Escalation
 - Insecure Direct Object References (IDOR)
@@ -42,7 +92,7 @@
 - Improper API Access Control
 - Uncontrolled Access to Mobile App Resources
 
-# Input Validation and Injection
+### Input Validation and Injection
 - SQL Injection
 - NoSQL Injection
 - Command Injection
@@ -64,7 +114,7 @@
 - Blind Injection Attacks
 - File and Resource Handling
 
-# File and Resource Handling
+### File and Resource Handling
 - Unrestricted File Upload
 - Directory Traversal
 - Insecure File Parsing
@@ -83,7 +133,7 @@
 - Server-Side File Processing Vulnerabilities
 - Path Traversal via User Input
 
-# Cryptographic and Data Protection Issues
+### Cryptographic and Data Protection Issues
 - Weak Encryption Algorithms
 - Missing Encryption for Sensitive Data (at rest/in transit)
 - Hardcoded Cryptographic Keys
@@ -101,7 +151,7 @@
 - Mobile App Cryptography Flaws
 - Insecure SSL-TLS Implementation
 
-# Security Misconfigurations
+### Security Misconfigurations
 - Unpatched or Outdated Software
 - Misconfigured Security Headers (e.g., CSP, HSTS)
 - Debug Information Exposed in Production
@@ -119,7 +169,7 @@
 - Mobile App Sensitive Data Leakage
 - Insecure Transmission
 
-# Mobile Application-Specific Vulnerabilities
+### Mobile Application-Specific Vulnerabilities
 - Insecure Data Storage (e.g., SQLite, Shared Preferences)
 - Insecure Use of Platform APIs (e.g., Keychain, Keystore)
 - Lack of Binary Protection (e.g., reverse engineering, tampering)
@@ -135,7 +185,7 @@
 - Mobile App UI Manipulation via Clickjacking
 - Mobile App Path Traversal
 
-# API-Specific Vulnerabilities
+### API-Specific Vulnerabilities
 - Lack of Rate Limiting (e.g., brute force attacks)
 - Mass Assignment Vulnerabilities
 - Insecure Deserialization
@@ -151,7 +201,7 @@
 - Improperly Scoped API Permissions
 - API Logic Flaws
 
-# System Application-Specific Vulnerabilities
+### System Application-Specific Vulnerabilities
 - Buffer Overflows (Heap/Stack)
 - Use After Free
 - Out-of-Bounds Read/Write
@@ -163,13 +213,13 @@
 - Lack of ASLR (Address Space Layout Randomization)
 - Weak Kernel Hardening
 
-# Data and Privacy Vulnerabilities
+### Data and Privacy Vulnerabilities
 - Sensitive Data Exposure in Logs
 - Data Leakage via Cache or Temporary Files
 - Improper Data Anonymization Techniques
 - Unencrypted Backups or Offline Storage
 
-# Logging and Monitoring
+### Logging and Monitoring
 - Insufficient Logging for Security Events
 - Missing Alerting Mechanisms for Anomalous Activities
 - Insecure Log Storage (e.g., plaintext logs)
@@ -177,14 +227,14 @@
 - Lack of Audit Trails for Critical Actions
 - API Request-Response Log Tampering
 
-# Client-Side Vulnerabilities
+### Client-Side Vulnerabilities
 - DOM-based XSS
 - Clickjacking
 - Insecure Client-Side Storage (e.g., localStorage, IndexedDB)
 - Weak JavaScript or DOM Manipulation Protections
 - CSRF Tokens Stored Insecurely
 
-# Network and Protocol Vulnerabilities
+### Network and Protocol Vulnerabilities
 - Insecure Use of Protocols (e.g., HTTP instead of HTTPS)
 - Weak Wi-Fi Protections (e.g., WPA2 vulnerabilities)
 - Insecure DNS (e.g., DNS Cache Poisoning)
@@ -192,7 +242,7 @@
 - Insecure Communication in Microservices
 - Unencrypted Data in Transit
 
-# Business Logic and Design Flaws
+### Business Logic and Design Flaws
 - Inconsistent Workflow Logic
 - Lack of Account Lockout After Failed Attempts
 - Improper Validation of Critical Operations (e.g., fund transfers)
@@ -203,7 +253,7 @@
 - Logic Flaws Leading to Privilege Escalation
 - Unintended Operations
 
-# Architecture-Related Vulnerabilities
+### Architecture-Related Vulnerabilities
 - Architectural Design Flaws
   - Lack of Defense-in-Depth: Failure to apply multiple layers of security across the system.
   - Overly Complex Architecture: Complex and convoluted designs make the system harder to secure.
@@ -226,3 +276,13 @@
 - Lack of Secure Software Development Lifecycle (SDLC)
   - Failure to Integrate Security from the Beginning: Ignoring security during the design and development phases.
   - Lack of Regular Security Audits and Penetration Testing: Absence of continuous or periodic security testing within the lifecycle.
+
+# 5. Exploitation
+# 6. Post-Exploitation
+# 7. Reporting
+### Vulnerability Details:
+- Vulnerability name, description, impact, and proof of concept (PoC).
+### Screenshots:
+- Show exploitation steps for clarity.
+### Risk Assessment:
+- Use CVSS scores for prioritization.
