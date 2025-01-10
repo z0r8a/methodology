@@ -19,11 +19,8 @@
 
 # 2. Information Gathering (جلسه شناخت)
 ### Passive Reconnaissance
-- OSINT Tools
-  - theHarvester: Gather emails, subdomains, and metadata.
-  - Shodan: Search for exposed services
-  - Google Dorks
-- Public Repositories: Search for leaked credentials or sensitive files
+- [OSINT Tools](/resources/OSINT_Tools.md)
+- [Public Repositories](/resources/Public_Repositories.md)
 ### Active Reconnaissance
 - [DNS Enumeration](/resources/DNS_Enumeration.md)
 - [Port Scanning](/resources/Port_Scanning.md)
