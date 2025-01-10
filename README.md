@@ -1,5 +1,5 @@
 # Authentication and Session Management
-- Weak or Default Credentials
+- [Weak or Default Credentials](/resources/Weak_or_Default_Credentials.md)
 - Insufficient Password Complexity Policies
 - Credential Stuffing
 - Missing or Insecure Multi-Factor Authentication (MFA)
