@@ -54,7 +54,7 @@
 - Business-critical systems: Databases, payment gateways, sensitive APIs.
 - Historical vulnerabilities: Legacy software and outdated libraries.
 
-# 4. Vulnerability Assessment
+# 4. Vulnerability Assessment (ارزیابی)
 ### Authentication and Session Management
 - [Weak or Default Credentials](/resources/Weak_or_Default_Credentials.md)
 - [Insufficient Password Complexity Policies](/resources/Insufficient_Password_Complexity_Policies.md)
