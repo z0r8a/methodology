@@ -46,3 +46,17 @@
 ### Prioritization Criteria:
 - Business-critical systems: Databases, payment gateways, sensitive APIs.
 - Historical vulnerabilities: Legacy software and outdated libraries.
+
+# 4. Vulnerability Assessment
+# 5. Exploitation
+# 6. Post-Exploitation
+# 7. Reporting
+### Vulnerability Details:
+- Vulnerability name, description, impact, and proof of concept (PoC).
+### Screenshots:
+- Show exploitation steps for clarity.
+### Risk Assessment:
+- Use CVSS scores for prioritization.
+# 8. 
+
+
