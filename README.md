@@ -1,4 +1,4 @@
-# 1. Pre-Engagement Phase
+# 1. Pre-Engagement Phase (تفاهم نامه)
 ### Scope Definition
 - Identify in-scope assets: List all domains, subdomains, IP ranges, web apps, APIs, networks.
 - Confirm out-of-scope assets: Explicitly document systems/services to avoid.
@@ -17,7 +17,7 @@
 - NDA: Ensure non-disclosure agreements are in place.
 
 
-# 2. Information Gathering (Reconnaissance)
+# 2. Information Gathering (جلسه شناخت)
 ### Passive Reconnaissance (No direct interaction)
 - OSINT Tools:
   - theHarvester: Gather emails, subdomains, and metadata.
@@ -39,7 +39,7 @@
 - Web Application Enumeration:
   - Identify directories: `gobuster dir -u https://example.com -w /path/to/wordlist.txt`
 
-# 3. Threat Modeling and Target Prioritization
+# 3. Threat Modeling and Target Prioritization (جلسه داخلی پس از جلسه شناخت)
 ### Attack Surface Analysis:
 - Create a diagram of all services, endpoints, and applications.
 - Use tools like OWASP Threat Dragon to visualize threats.
