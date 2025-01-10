@@ -1,0 +1,3 @@
+- DNS Enumeration:
+  - Query records: `dig example.com ANY`
+  - Zone transfer (if misconfigured): `dig axfr @ns1.example.com example.com`
