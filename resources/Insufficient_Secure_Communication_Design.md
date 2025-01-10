@@ -1,0 +1,3 @@
+- Insufficient Secure Communication Design
+  - Unencrypted Data in Transit: Data transmitted without proper encryption mechanisms (e.g., HTTP instead of HTTPS).
+  - Weak Transport Layer Security: Use of deprecated or weak SSL/TLS configurations.
