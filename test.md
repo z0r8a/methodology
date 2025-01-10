@@ -57,6 +57,10 @@
 - Show exploitation steps for clarity.
 ### Risk Assessment:
 - Use CVSS scores for prioritization.
-# 8. 
+# 8. Retesting and Improvement
+### Validation:
+- Confirm fixed vulnerabilities are no longer exploitable.
+### Retrospective:
+- Document lessons learned and update workflows.
 
 
