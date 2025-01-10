@@ -1,22 +1,22 @@
 # Group 1
-- Injection Vulnerabilities
-- Authentication Vulnerabilities
+- Injection Vulnerabilities (12)
+- Authentication Vulnerabilities (16)
 
 # Group 2
-- Access Control Vulnerabilities
-- Cross-Site Scripting (XSS)
+- Access Control Vulnerabilities (14)
+- Cross-Site Scripting (XSS) (9)
 
 # Group 3
-- Cross-Site Request Forgery (CSRF)
-- Insecure Deserialization
+- Cross-Site Request Forgery (CSRF) (6)
+- Insecure Deserialization (4)
 
 # Group 4
-- Security Misconfiguration
-- Sensitive Data Exposure
+- Security Misconfiguration (12)
+- Sensitive Data Exposure (9)
 
 # Group 5
-- Insufficient Logging & Monitoring
-- Cross-Origin Resource Sharing (CORS) Issues
+- Insufficient Logging & Monitoring (9)
+- Cross-Origin Resource Sharing (CORS) Issues (6)
 
 # Group 6
 - Security Headers Issues
