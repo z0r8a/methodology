@@ -1,0 +1,3 @@
+- Lack of Secure Software Development Lifecycle (SDLC)
+  - Failure to Integrate Security from the Beginning: Ignoring security during the design and development phases.
+  - Lack of Regular Security Audits and Penetration Testing: Absence of continuous or periodic security testing within the lifecycle.
