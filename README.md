@@ -1,27 +1,27 @@
 # Authentication and Session Management
 - [Weak or Default Credentials](/resources/Weak_or_Default_Credentials.md)
-- Insufficient Password Complexity Policies
-- Credential Stuffing
-- Missing or Insecure Multi-Factor Authentication (MFA)
-- Session Fixation
-- Improper Session Expiry or Timeout
-- Use of Hardcoded Credentials
-- Token Hijacking (e.g., JWT tampering)
-- Insufficient Token Expiration or Revocation
-- Broken Authentication
-- Password Guessing
-- Weak Password Recovery Mechanisms
-- Brute Force Attacks
-- Exposed Session Tokens
-- Predictable Login Endpoints
-- Token or Session Expiration Flaws
-- Insecure Password Storage
-- Multi-Factor Authentication Bypass
-- Insecure OAuth-OpenID Configuration
-- Unprotected API Authentication
-- Mobile App Authentication Weaknesses
-- Cross-Protocol Session Hijacking
-- JWT Attacks
+- [Insufficient Password Complexity Policies](/resources/Insufficient_Password_Complexity_Policies.md)
+- [Credential Stuffing](/resources/Credential_Stuffing.md)
+- [Missing or Insecure Multi-Factor Authentication (MFA)](/resources/Missing_or_Insecure_Multi-Factor_Authentication.md)
+- [Session Fixation](/resources/Session_Fixation.md)
+- [Improper Session Expiry or Timeout](/resources/Improper_Session_Expiry_or_Timeout.md)
+- [Use of Hardcoded Credentials](/resources/Use_of_Hardcoded_Credentials.md)
+- [Token Hijacking (e.g., JWT tampering)](/resources/Token_Hijacking.md)
+- [Insufficient Token Expiration or Revocation](/resources/Insufficient_Token_Expiration_or_Revocation.md)
+- [Broken Authentication](/resources/Broken_Authentication.md)
+- [Password Guessing](/resources/Password_Guessing.md)
+- [Weak Password Recovery Mechanisms](/resources/Weak_Password_Recovery_Mechanisms.md)
+- [Brute Force Attacks](/resources/Brute_Force_Attacks.md)
+- [Exposed Session Tokens](/resources/Exposed_Session_Tokens.md)
+- [Predictable Login Endpoints](/resources/Predictable_Login_Endpoints.md)
+- [Token or Session Expiration Flaws](/resources/Token_or_Session_Expiration_Flaws.md)
+- [Insecure Password Storage](/resources/Insecure_Password_Storage.md)
+- [Multi-Factor Authentication Bypass](/resources/Multi-Factor_Authentication_Bypass.md)
+- [Insecure OAuth-OpenID Configuration](/resources/Insecure_OAuth-OpenID_Configuration.md)
+- [Unprotected API Authentication](/resources/Unprotected_API_Authentication.md)
+- [Mobile App Authentication Weaknesses](/resources/Mobile_App_Authentication_Weaknesses.md)
+- [Cross-Protocol Session Hijacking](/resources/Cross-Protocol_Session_Hijacking.md)
+- [JWT Attacks](/resources/JWT_Attacks.md)
 
 # Access Control and Authorization
 - Broken Access Control
