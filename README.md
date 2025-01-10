@@ -40,28 +40,11 @@
   - Identify directories: `gobuster dir -u https://example.com -w /path/to/wordlist.txt`
 
 ### Architecture-Related Vulnerabilities
-- Architectural Design Flaws
-  - Lack of Defense-in-Depth: Failure to apply multiple layers of security across the system.
-  - Overly Complex Architecture: Complex and convoluted designs make the system harder to secure.
-  - Improper Separation of Duties: Failure to enforce strict role-based separation, allowing for too much privilege in one entity.
-  - Single Point of Failure: A critical component failure leads to full system compromise.
-  - Lack of Redundancy and Scalability: Lack of failover mechanisms or scalability compromises availability.
-  - Insecure Microservices Communication: Unsecured communication between microservices or containers, enabling unauthorized access.
-  - Hardcoding Sensitive Data in Architecture: Sensitive data hardcoded in configuration files, scripts, or code.
-- Insufficient Threat Modeling
-  - Failure to Identify Potential Threats: Missing or incomplete threat models, leading to unforeseen risks.
-  - Improper Handling of External Dependencies: Failure to evaluate security risks from third-party services or components.
-- Insecure Cloud Architecture
-  - Misconfigured Cloud Permissions: Inappropriate access control policies leading to data exposure or unauthorized access.
-  - Improper Segmentation in Cloud Environments: Insufficient isolation between cloud services, exposing critical data.
-  - Exposed API Endpoints in Cloud Architecture: Insecure or unmonitored API endpoints exposed in the cloud.
-  - Insecure Cloud Storage and Data Leakage: Cloud storage services misconfigured to allow data leakage.
-- Insufficient Secure Communication Design
-  - Unencrypted Data in Transit: Data transmitted without proper encryption mechanisms (e.g., HTTP instead of HTTPS).
-  - Weak Transport Layer Security: Use of deprecated or weak SSL/TLS configurations.
-- Lack of Secure Software Development Lifecycle (SDLC)
-  - Failure to Integrate Security from the Beginning: Ignoring security during the design and development phases.
-  - Lack of Regular Security Audits and Penetration Testing: Absence of continuous or periodic security testing within the lifecycle.
+- [Architectural Design Flaws](/resources/Architectural_Design_Flaws.md)
+- [Insufficient Threat Modeling](/resources/Insufficient_Threat_Modeling.md)
+- [Insecure Cloud Architecture](/resources/Insecure_Cloud_Architecture.md)
+- [Insufficient Secure Communication Design](/resources/Insufficient_Secure_Communication_Design.md)
+- [Lack of Secure Software Development Lifecycle (SDLC)](/resources/Lack_of_Secure_Software_Development_Lifecycle.md)
 
 # 3. Threat Modeling and Target Prioritization (طراحی تست)
 ### Attack Surface Analysis:
