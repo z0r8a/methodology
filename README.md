@@ -1,102 +1,97 @@
-# Web Application Vulnerabilities
-- SQL Injection
-- Cross-Site Scripting (XSS)
-- Cross-Site Request Forgery (CSRF)
-- Security Misconfiguration
-- Sensitive Data Exposure
-- Broken Authentication
-- Broken Access Control
-- Insecure Direct Object References (IDOR)
-- Insecure Deserialization
-- XML External Entity (XXE) Injection
-- Server-Side Request Forgery (SSRF)
-- Command Injection
-- Path Traversal
-- Directory Listing
-- File Inclusion (LFI/RFI)
-- Clickjacking
-- Open Redirects
-- HTTP Response Splitting
-- Insufficient Transport Layer Protection
-- Weak Session Management
-- Account Enumeration
-- CAPTCHA Bypass
-- Host Header Injection
-- Subdomain Takeover
-- Cache Poisoning
+# Authentication and Session Management
+- Improper Authentication
+Weak or Default Passwords
+Brute Force Attacks
+Broken Session Management
+Insufficient Session Expiration
+Session Fixation
+Use of Hard-Coded Credentials
 
-# Mobile Application Vulnerabilities
-- Insecure Data Storage
-- Improper Platform Usage
-- Insecure Communication
-- Insufficient Cryptography
-- Insecure Authentication
-- Insecure Authorization
-- Code Tampering
-- Reverse Engineering
-- Extraneous Functionality
-- Weak Biometrics
-- Untrusted Inputs in Inter-Process Communication (IPC)
-- Insecure Third-Party Libraries
-- Weak Jailbreak/Root Detection
-- Hardcoded Credentials
+# Access Control and Authorization
+Broken Access Control
+Privilege Escalation
+Insecure Direct Object References (IDOR)
+Improper Restriction of Pathnames (Path Traversal)
+Missing Authorization Controls
 
-# API Vulnerabilities
-- Broken Object Level Authorization (BOLA)
-- Broken User Authentication
-- Excessive Data Exposure
-- Lack of Resources and Rate Limiting
-- Mass Assignment
-- Injection (SQL, NoSQL, LDAP, OS Command)
-- Security Misconfiguration
-- Improper Assets Management
-- Broken Function Level Authorization
-- Insufficient Logging and Monitoring
+# Input Validation and Injection
+SQL Injection
+NoSQL Injection
+Command Injection
+LDAP Injection
+Cross-Site Scripting (XSS)
+Stored XSS
+Reflected XSS
+DOM-based XSS
+Code Injection
+HTML Injection
+XML Injection
+HTTP Header Injection
+CRLF Injection
 
-# System-Level Vulnerabilities
-- Buffer Overflow
-- Stack Overflow
-- Heap Overflow
-- Race Conditions
-- Use After Free (UAF)
-- Privilege Escalation
-- Kernel Exploits
-- Insecure Inter-Process Communication
-- Insecure File Permissions
-- Weak Random Number Generators
-- Memory Corruption
-- DLL Injection
-- Code Injection
-- Command Injection
-- Hardcoded Credentials
-- Insufficient Patch Management
-- Insecure Default Configurations
+# File and Resource Handling
+Unrestricted File Upload
+Insecure File Downloads
+Directory Traversal
+Insecure Temporary File Creation
+Server-Side Request Forgery (SSRF)
+Cross-Site Request Forgery (CSRF)
+Open Redirects
 
-# Network-Level Vulnerabilities
-- Man-in-the-Middle (MITM) Attacks
-- ARP Spoofing
-- DNS Spoofing
-- DNS Cache Poisoning
-- VLAN Hopping
-- Weak Encryption Protocols (e.g., WEP)
-- SNMP Enumeration
-- Port Scanning and Enumeration
-- Weak Passwords
-- Insecure Network Services
-- Ransomware Propagation
-- Denial of Service (DoS)
-- Distributed Denial of Service (DDoS)
-- Network Segmentation Failures
+# Cryptographic Issues
+Weak Encryption Algorithms
+Missing Data Encryption (at rest/in transit)
+Improper Key Management
+Hardcoded Cryptographic Keys
+Insufficient Randomness for Cryptographic Functions
+Improper Certificate Validation
 
-# Cryptographic Vulnerabilities
-- Padding Oracle Attack
-- Weak Hash Algorithms (e.g., MD5, SHA-1)
-- Insufficient Key Size
-- Key Reuse
-- Poor Random Number Generation
-- Side-Channel Attacks
-- Broken Cryptographic Libraries
-- Timing Attacks
-- Birthday Attacks
-- Downgrade Attacks (e.g., Logjam, FREAK)
-- Plaintext Storage of Keys
+# Security Misconfigurations
+Default Configurations
+Unnecessary Features Enabled (e.g., debug mode, default accounts)
+Misconfigured Security Headers
+Open Cloud Storage (e.g., S3 buckets)
+Unpatched Software or Libraries
+Exposure of Sensitive Data through Misconfigurations
+
+# Software Integrity Issues
+Vulnerable and Outdated Components
+Insecure Software Dependencies
+Insecure CI/CD Pipelines
+Use of Unsigned or Unverified Software Updates
+Dependency Confusion Attacks
+
+# Client-Side Vulnerabilities
+DOM-based XSS
+Clickjacking
+JavaScript Injection
+HTML5 Security Issues (e.g., insecure local storage)
+Insecure Cross-Origin Resource Sharing (CORS) Policies
+
+# Data Exposure and Protection
+Sensitive Data Exposure (e.g., passwords, tokens)
+Information Leakage via Error Messages
+Insecure Handling of Personally Identifiable Information (PII)
+Data Leakage through Logs
+
+# Logging and Monitoring
+Insufficient Logging
+Lack of Monitoring for Security Events
+Missing Alerting on Suspicious Activities
+
+# Network Layer Vulnerabilities
+Insecure Use of Protocols (e.g., HTTP instead of HTTPS)
+DNS Spoofing or Cache Poisoning
+Cross-Origin Resource Exploitation
+
+# Business Logic Vulnerabilities
+Flawed Business Logic Implementation
+Lack of Input Validation for Business Processes
+Insecure Payment or Transaction Flows
+
+# Other Vulnerabilities
+Improper Resource Shutdown or Release
+Out-of-Bounds Read/Write
+Integer Overflow or Underflow
+NULL Pointer Dereference
+Race Conditions
