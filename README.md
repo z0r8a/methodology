@@ -1,11 +1,11 @@
 # Authentication and Session Management
 - Improper Authentication
-Weak or Default Passwords
-Brute Force Attacks
-Broken Session Management
-Insufficient Session Expiration
-Session Fixation
-Use of Hard-Coded Credentials
+- Weak or Default Passwords
+- Brute Force Attacks
+- Broken Session Management
+- Insufficient Session Expiration
+- Session Fixation
+- Use of Hard-Coded Credentials
 
 # Access Control and Authorization
 Broken Access Control
