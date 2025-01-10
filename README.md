@@ -19,25 +19,15 @@
 
 # 2. Information Gathering (جلسه شناخت)
 ### Passive Reconnaissance
-- OSINT Tools:
+- OSINT Tools
   - theHarvester: Gather emails, subdomains, and metadata.
-    - `theHarvester -d example.com -b all`
   - Shodan: Search for exposed services
-    - `shodan search "org:Example Company"`
-  - Google Dorks:
-    - `site:example.com filetype:pdf`
-    - `site:example.com intitle:"index of"`
+  - Google Dorks
 - Public Repositories: Search for leaked credentials or sensitive files
-  - `git clone https://github.com/example/repo.git`
-  - `grep -ri "password" repo/`
 ### Active Reconnaissance
-- DNS Enumeration:
-  - Query records: `dig example.com ANY`
-  - Zone transfer (if misconfigured): `dig axfr @ns1.example.com example.com`
-- Port Scanning:
-  - Full TCP/UDP scan: `nmap -sS -sU -p- -T4 example.com`
-- Web Application Enumeration:
-  - Identify directories: `gobuster dir -u https://example.com -w /path/to/wordlist.txt`
+- [DNS Enumeration](/resources/DNS_Enumeration.md)
+- [Port Scanning](/resources/Port_Scanning.md)
+- [Web Application Enumeration](/resources/Web_Application_Enumeration.md)
 
 ### Architecture-Related Vulnerabilities
 - [Architectural Design Flaws](/resources/Architectural_Design_Flaws.md)
