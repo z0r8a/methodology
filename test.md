@@ -1,6 +1,6 @@
 # 1. Pre-Engagement Phase
 ### Scope Definition
-- Identify in-scope assets: List all domains, subdomains, IP ranges, web apps, APIs, networks, and IoT devices.
+- Identify in-scope assets: List all domains, subdomains, IP ranges, web apps, APIs, networks.
 - Confirm out-of-scope assets: Explicitly document systems/services to avoid.
 ### Rules of Engagement (ROE)
 - Timing:
