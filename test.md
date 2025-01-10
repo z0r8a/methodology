@@ -38,3 +38,11 @@
   - Full TCP/UDP scan: `nmap -sS -sU -p- -T4 example.com`
 - Web Application Enumeration:
   - Identify directories: `gobuster dir -u https://example.com -w /path/to/wordlist.txt`
+
+# 3. Threat Modeling and Target Prioritization
+### Attack Surface Analysis:
+- Create a diagram of all services, endpoints, and applications.
+- Use tools like OWASP Threat Dragon to visualize threats.
+### Prioritization Criteria:
+- Business-critical systems: Databases, payment gateways, sensitive APIs.
+- Historical vulnerabilities: Legacy software and outdated libraries.
