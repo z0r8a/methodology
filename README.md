@@ -277,9 +277,9 @@
   - Failure to Integrate Security from the Beginning: Ignoring security during the design and development phases.
   - Lack of Regular Security Audits and Penetration Testing: Absence of continuous or periodic security testing within the lifecycle.
 
-# 5. Exploitation
-# 6. Post-Exploitation
-# 7. Reporting
+# 5. Exploitation & Post-Exploitation
+
+# 6. Reporting
 - **Vulnerability Details:** Vulnerability name, description, impact, and proof of concept (PoC).
 - **Screenshots:** Show exploitation steps for clarity.
 - **Risk Assessment:** Use CVSS scores for prioritization.
