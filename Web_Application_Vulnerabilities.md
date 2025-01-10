@@ -1,10 +1,10 @@
 # Web Application Vulnerabilities
-1. SQL Injection
-2. Cross-Site Scripting (XSS)
-3. Cross-Site Request Forgery (CSRF)
-4. Security Misconfiguration
-5. Sensitive Data Exposure
-6. Broken Authentication
+### 1. SQL Injection
+### 2. Cross-Site Scripting (XSS)
+### 3. Cross-Site Request Forgery (CSRF)
+### 4. Security Misconfiguration
+### 5. Sensitive Data Exposure
+### 6. Broken Authentication
 Broken Access Control
 Insecure Direct Object References (IDOR)
 Insecure Deserialization
