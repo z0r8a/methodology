@@ -280,9 +280,6 @@
 # 5. Exploitation
 # 6. Post-Exploitation
 # 7. Reporting
-### Vulnerability Details:
-- Vulnerability name, description, impact, and proof of concept (PoC).
-### Screenshots:
-- Show exploitation steps for clarity.
-### Risk Assessment:
-- Use CVSS scores for prioritization.
+- **Vulnerability Details:** Vulnerability name, description, impact, and proof of concept (PoC).
+- **Screenshots:** Show exploitation steps for clarity.
+- **Risk Assessment:** Use CVSS scores for prioritization.
